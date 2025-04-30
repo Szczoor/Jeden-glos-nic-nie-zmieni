@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%; 
+  overflow: hidden
+}
+canvas {
+  display: block;
+}
+p {
+  color: #EEEEEE;
+  font-family: "Tagesschrift", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22pt;
+  white-space: pre-line;
+  -webkit-user-select: none;
+  -ms-user-select: none; 
+  user-select: none;
+}
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
