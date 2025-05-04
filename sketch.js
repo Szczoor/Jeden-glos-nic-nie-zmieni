@@ -195,7 +195,6 @@ function utworzWiersz() {
   wiersz += "\nNosi zwykle " + random(ubranie1) + " i " + random(ubranie2) + "\n"
   
   wiersz += random(ktomowi) + ", że jest " + random(cecha) + " osobą" 
-  //wiersz += random(jak) + " " + random(robicos)
   
   var czy_pracuje = false
   if (random() < 0.8) czy_pracuje = true
